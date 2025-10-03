@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{ font-family: sans-serif;}
+
+        body{
+            width:70%;
+            margin:auto;
+            margin-top: 20px;
+}
+        
+        .header{
+            background: linear-gradient(to right, #3c359e 0%, #03bef2 100%);
+            color: white;
+            padding: 10px;
+            margin: auto;
+        }
+
+        .header p{
+            font-size: larger;
+
+        }
+
+        
+        
+        .header button{
+            border: .5px solid rgb(97, 77, 240);
+            float: right;
+            margin-right: 20px;
+            
+            font-weight: bold;
+            background-color: #0780a2;
+            padding: 5px;
+            border-radius: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: relative;
+            bottom:60px;
+        }
+
+        .sidebar{
+        
+            float: left;
+            width: 20%;
+            background: whitesmoke;
+            height: 650px;
+            padding: 10px;
+        }
+
+        .sidebar a{
+            display: block;
+            padding: 8px;
+            color: black;
+        }
+
+        .box{
+            border: 2px rgb(12, 31, 62);
+            background-color: aliceblue;
+            padding: 2px;
+            color: black;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        .feature1{
+            border: 2px rgb(12, 31, 62);
+            border-radius: 13px;
+            background-color: aliceblue;
+            padding: 7px;
+            margin: 2px;
+            margin-top: 20px;
+            color: black;
+            width: 220px;
+            height: 150px;
+            font-size: 18px;
+            float: left;
+        
+        }
+
+        .feature2{
+            border: 2px rgb(20, 15, 88);
+            border-radius: 13px;
+            background-color: aliceblue;
+            padding: 9px;
+            margin: 2px;
+            margin-top: 20px;
+            color: black;
+            margin-left: 35px; 
+            
+            width: 220px;
+            height: 150px;
+            font-size: 18px;
+            float: left;
+        }
+
+        .feature3{
+            border: 2px rgb(9, 86, 112);
+            border-radius: 13px;
+            background-color: aliceblue;
+            padding: 9px;
+            margin: 2px;
+            margin-left: 35px; 
+            margin-top: 20px;
+            color: black;
+            width: 220px;
+            height: 150px;
+            font-size: 18px;
+            float: left;
+            
+        }
+
+        .circle{
+            display: block;
+          
+            width: 150px;
+            height: 150px;
+            margin-top: 50px;
+            margin-left: 20px;
+            float: left;
+            
+        }
+
+        .body{
+            border: 2px lightgray;
+            padding: 2px;
+            color: black;
+            width: 400px;
+            height: 130px;
+            font-size: 19px;
+            float: right;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav">
+
+    <div class="header">
+        <h2>Floaty - UI Workshop</h2>
+        <p>Simple, elegant layout built with floats</p>
+        <button>Get Started</button>
+    </div>
+    </nav>
+    
+
+    <div class="sidebar">
+        <a href="">Overview</a><br>
+        <a href="">Features</a><br>
+        <a href="">Tutorials</a><br>
+        <a href="">Resources</a><br>
+        <a href="">Contact</a><br>
+        </div>
+
+
+        <div class="content">
+            <div class="box">
+                <h3>Build responsive layouts with just floats</h3>
+                <p>This demo uses floats for structure and modern styles (rounded corners, subtle shadows, gradients) for a polished look.</p>
+            </div>
+
+            
+            <div class="features">
+                <div class="feature1">
+                <h3>Lightweight</h3>
+                <p>No heavy frameworks- pure HTML + CSS with float-driven layout.</p>
+                </div>
+
+                <div class="feature2">
+                    <h3>Customizable</h3>
+                    <p>Easily change colors, borders, and background to match your brand.</p>
+                </div>
+
+                <div class="feature3">
+                    <h3>Responsive</h3>
+                    <p>Media queries stack floated columns on small screens for readability</p>
+                </div>
+
+                </div class="circle">
+                
+                 
+                <img src="https://img.freepik.com/premium-vector/blue-plate-white-background-vector-illustration_113323-1706.jpg" alt="" class="circle">
+
+
+                <div class="body">
+                    <h2>Why floats still matter</h2>
+                    <p>Floats were the original way to build multi-column layouts. They are simple, well-supported, and still useful for specific layout patterns - like this sidebar + content page and card grids. Use them when you need predictable flow and wide browser compatibility.</p>
+                </div>
+
+            
+                
+
+                
+        
+
+    </div>
+</body>
+</html>
